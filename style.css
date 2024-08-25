@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    max-width: 800px; /* Adjust as needed */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+@media (max-width: 825px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+#quote {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+#author {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Floating Settings Button */
+#settings-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 1.5em;
+    z-index: 1000;
+}
+
+/* Settings Modal */
+.modal-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-range {
+    width: 100%;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.dark-mode .container {
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode #quote {
+    color: #f0f0f0;
+}
+
+.dark-mode #author {
+    color: #ccc;
+}
+
+.dark-mode button {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: transparent;
+}
+
+.dark-mode #loading {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode .footer {
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+.dark-mode .footer a {
+    color: #80bdff;
+}
+
+.dark-mode .footer a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode styles for the modal */
+.dark-mode .modal-content {
+    background-color: #444;
+    color: #f0f0f0;
+}
+
+.dark-mode .modal-header {
+    border-bottom: 1px solid #555;
+}
+
+.dark-mode .modal-footer {
+    border-top: 1px solid #555;
+}
+
+/* Positioning the button correctly */
+#new-quote {
+    margin-top: 20px;
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 1.1em; /* Adjust font size if needed */
+    width: auto; /* Ensure width is auto to avoid stretching */
+    max-width: 200px; /* Optional: Set a maximum width */
+    align-self: center; /* Center the button horizontally */
+}
+
+
+#screenshot-button, 
+#clipboard-button {
+    margin-top: 20px;
+}
