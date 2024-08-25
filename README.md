@@ -35,12 +35,12 @@ Feel free to check out my projects, give feedback, or connect with me on noahpom
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://noahpombas.ch/)
-## Suporte
+## Support
 
 You need help? Send an E-Mail to info@noahpombas.ch
 
 
-## Etiquetas
+## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## FAQ
