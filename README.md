@@ -6,7 +6,7 @@ Welcome to the **Motivational Quote Generator**! ✨
 This project is your daily dose of inspiration. Whether you're starting your day 🌅 or need a boost 💪, this tool is here to brighten your mood!
 
 ### ✨ Features
-- **📚 Large Quote Library:** A collection of motivational quotes stored in `quotes.json`.
+- **📚 Large Quote Library:** 250 motivational quotes stored in `quotes.json`.
 - **🎨 Theme Customization:** Change text, box, and background colors. Settings are saved in `localStorage`.
 - **💾 Save to File:** Save your favorite quotes as images.
 - **📸 Screenshot & Clipboard:** Capture screenshots and save them to your clipboard.
