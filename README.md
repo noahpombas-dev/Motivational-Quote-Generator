@@ -36,7 +36,7 @@ Feel free to check out my projects, give feedback, or connect with me on noahpom
 ## 🔗 Links
 [![Check it out](https://img.shields.io/badge/Visit-Quotes_App-blue?style=for-the-badge)](https://quotes.noahpombas.ch)
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://noahpombas.ch/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio.noahpombas.ch/)
 ## Support
 
 You need help? Send an E-Mail to info@noahpombas.ch
